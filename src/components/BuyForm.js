@@ -50,6 +50,7 @@ class BuyForm extends Component {
           <label className="float-left"><b>Output</b></label>
           <span className="float-right text-muted">
             Balance: {window.web3.utils.fromWei(this.props.tokenBalance, 'Ether')}
+
           </span>
         </div>
         <div className="input-group mb-2">
